@@ -1,5 +1,4 @@
 import colecaoUF from "../Dados/dados.js";
-import catalogo from "../Atividade 2/dados.js";
 
 export const buscarUfsPorNome = (nome) => {
     return colecaoUF.filter((uf) => uf.nome.toLowerCase().includes(nome.toLowerCase()));

@@ -5,7 +5,7 @@ import {
     buscarUfsPorNome,
     buscarUfPorSigla,
     buscarUfsPorInicial
-} from "./Servicos/servico.js";
+} from "./Servico/servico.js";
 
 const app = express();
 app.get('/ufs', (req, res) => {
